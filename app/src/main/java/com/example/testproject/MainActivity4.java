@@ -136,7 +136,7 @@ public class MainActivity4 extends AppCompatActivity implements View.OnTouchList
                 editor.putInt("nas3", 1);
                 editor.apply();
                 if(editText.getText().toString().equals(q2)){
-                    Toast.makeText(this, "Ведите текст", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Введите текст", Toast.LENGTH_SHORT).show();
                 }else if(editText.getText().toString().toLowerCase().equals(q)){
                     Button();
                     _3_ = true;
